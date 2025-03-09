@@ -1,67 +1,78 @@
 #include<iostream>
 
+//Вариант 5
+//(2*b - a + b/c)/(c/4 + 1);
 
 int asm_calc(int a, int b, int c) {
-
-
 	int out_of_size = 0;
+	int div_zero = 0;
 	int result;
 	__asm {
 
-		mov eax, b; eax = b
-		imul eax, 2; eax = eax * 2
-		jo overflow_flag
-
-		mov ebx, a; ebx = a
-		sub eax, ebx; eax = 2 * b - a
-		jo overflow_flag
-
-		push eax;
-
-		mov eax, b;eax = b
-		mov ebx, c;eax = c
-		cmp ebx, 0; ebx == 0 ?
+		mov eax, b					;eax = b | ebx = ? | ecx = ? | edx = ?
+		mov ebx, c					;eax = b | ebx = c | ecx = ? | edx = ?
+		cmp ebx, 0					;ebx == 0 ?
 		je zero_flag
 		cdq
-		idiv ebx;eax = eax/c
+		idiv ebx					;eax = b / c | ebx = c | ecx = ? | edx = ?
 		jo overflow_flag
 
-		pop ebx; ebx = (2*b-a)
-		add eax,ebx; eax = (2*b-a+b/c)
+		mov ecx, eax				;eax = b / c | ebx = c | ecx = b / c | edx = ?
+
+		mov eax, b					;eax = b | ebx = c | ecx = b / c | edx = ?
+		imul eax, 2					;eax = eax * 2 | ebx = c | ecx = b / c | edx = ?
 		jo overflow_flag
 
-		push eax
+		mov ebx, a					;eax = b | ebx = a | ecx = b / c | edx = ?
+		sub eax, ebx				;eax = (2 * b - a) | ebx = a | ecx = b / c | edx = ?
+		jo overflow_flag
 
-		mov eax,c; eax = c
-		mov ebx,4;ebx = 4
+		add eax, ecx				;eax = (2 * b - a + b / c) | ebx = a | ecx = b / c | edx = ?
+		jo overflow_flag
+
+		mov ecx, eax				;eax = (2 * b - a + b / c) | ebx = a | ecx = (2 * b - a + b / c) | edx = ?
+
+		mov eax, c					;eax = c | ebx = a | ecx = (2 * b - a + b / c) | edx = ?
+		mov ebx, 4					;eax = c | ebx = 4 | ecx = (2 * b - a + b / c) | edx = ?
 		cdq
-		idiv ebx; eax = eax/ebx
+		idiv ebx					;eax = c / 4 | ebx = 4 | ecx = (2 * b - a + b / c) | edx = ?
 		jo overflow_flag
 
-		inc eax; eax + 1
+		inc eax						;eax = c / 4 + 1 | ebx = 4 | ecx = (2 * b - a + b / c) | edx = ?
 		jo overflow_flag
 
-		mov ebx,eax; ebx = eax
-		pop eax; eax = (2*b-a+b/c)
+		mov ebx, eax				;eax = c / 4 + 1 | ebx = c / 4 + 1 | ecx = (2 * b - a + b / c) | edx = ?
+		mov eax, ecx				;eax = (2 * b - a + b / c) | ebx = c / 4 + 1 | ecx = (2 * b - a + b / c) | edx = ?
 		cdq
-		idiv ebx;eax = (2*b-a+b/c)/(c/4+1)
+		idiv ebx					;eax = (2*b-a+b/c)/(c/4+1) | ebx = c / 4 + 1 | ecx = (2 * b - a + b / c) | edx = ?
 		jo overflow_flag
 		
 		jmp answer
 
-		answer:
-			mov result,eax; result = eax
-			jmp exit_ass
+		answer :
+			mov result, eax; result = eax
+			jmp exit_asm
 
 		zero_flag:
-			jmp exit_ass
+			mov div_zero, 1
+			mov result, 0
+			jmp exit_asm
 
 		overflow_flag:
-			mov out_of_size, 0
-			jmp exit_ass
+			mov out_of_size, 1
+			mov result ,0
+			jmp exit_asm
 
-		exit_ass:
-				xor eax, eax;
+		exit_asm:
+			
+
+	}
+
+	if (div_zero) {
+		std::cout << "Assembly div by zero error" << std::endl;
+	}
+	if (out_of_size) {
+		std::cout << "Assembly out of size error" << std::endl;
 	}
 	return result;
 }
@@ -73,7 +84,7 @@ int calc(int a, int b, int c) {
 	int temp = c / 4 + 1;
 
 	if (c == 0 || temp == 0) {
-		std::cout << "???";
+		std::cout << "C++ div by zero error" << std::endl;
 	}
 	else {
 		result = (2 * b - a + b / c) / temp;
@@ -83,10 +94,6 @@ int calc(int a, int b, int c) {
 }
 
 int main() {
-
-
-//(2*b - a + b/c)/(c/4 + 1);
-
 	int a, b, c;
 	std::cin >> a;
 	std::cin >> b;
@@ -96,9 +103,6 @@ int main() {
 	int result_2 = calc(a, b, c);
 
 	std::cout << "Ass res: " << result_1 << std::endl;
-	std::cout << "Res: " << result_2 << std::endl;
+	std::cout << "C++ res: " << result_2 << std::endl;
 
 }
-
-
-
