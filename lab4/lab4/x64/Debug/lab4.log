@@ -1,0 +1,30 @@
+﻿  main.cpp
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(10,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(12,3): error C2065: mov: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(12,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(12,7): error C2065: ebx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(12,19): error C2065: eax: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(12,25): error C2059: синтаксическая ошибка: ?
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(13,18): error C2065: eax: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(13,24): error C2059: синтаксическая ошибка: ?
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,29): error C2065: eax: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,41): error C2065: ecx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,50): error C2065: ebx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,62): error C2065: ecx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,68): error C2065: i: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,72): error C2065: edx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(19,78): error C2059: синтаксическая ошибка: ?
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,19): error C2065: eax: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,33): error C2065: ecx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,44): error C2065: ebx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,56): error C2065: ecx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,62): error C2065: i: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,68): error C2065: edx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(22,74): error C2059: синтаксическая ошибка: ?
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,19): error C2065: eax: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,33): error C2065: ecx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,44): error C2065: ebx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,56): error C2065: ecx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,62): error C2065: i: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,68): error C2065: edx: необъявленный идентификатор
+C:\Prog\assembly_labs\lab4\lab4\main.cpp(29,74): error C2059: синтаксическая ошибка: ?
