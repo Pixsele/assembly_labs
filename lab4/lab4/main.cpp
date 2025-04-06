@@ -1,5 +1,8 @@
 #include<iostream>
 
+
+//5)	Найти сумму отрицательных элементов массива A = { a[i] }, удовлетворяющих условию : a[i] <= d.
+
 void show_error() {
 		std::cout << "Asm: out of memory";
 }

@@ -1,0 +1,101 @@
+﻿  main.cpp
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(13,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(15,3): error C2065: 'finit': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(17,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(17,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(17,7): error C2146: syntax error: missing ';' before identifier 'two'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(17,14): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(18,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(18,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(18,7): error C2146: syntax error: missing ';' before identifier 'b'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(18,12): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(18,24): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(19,3): error C2146: syntax error: missing ';' before identifier 'fmul'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(19,3): error C2065: 'fmul': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(19,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(20,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(20,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(20,7): error C2146: syntax error: missing ';' before identifier 'a'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(20,12): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(20,26): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(21,3): error C2146: syntax error: missing ';' before identifier 'fsub'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(21,3): error C2065: 'fsub': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(21,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(22,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(22,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(22,7): error C2146: syntax error: missing ';' before identifier 'b'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(22,12): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(22,30): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(23,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(23,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(23,7): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(23,12): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(23,30): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(23,42): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(25,3): error C2146: syntax error: missing ';' before identifier 'ftst'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(25,3): error C2065: 'ftst': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(26,3): error C2146: syntax error: missing ';' before identifier 'fstsw'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(26,3): error C2065: 'fstsw': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(26,9): error C2146: syntax error: missing ';' before identifier 'ax'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(26,9): error C2065: 'ax': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(27,3): error C2146: syntax error: missing ';' before identifier 'sahf'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(27,3): error C2065: 'sahf': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(28,3): error C2146: syntax error: missing ';' before identifier 'jz'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(28,3): error C2065: 'jz': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(28,6): error C2146: syntax error: missing ';' before identifier 'zero_error'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(28,6): error C2065: 'zero_error': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(30,3): error C2146: syntax error: missing ';' before identifier 'fdiv'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(30,3): error C2065: 'fdiv': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(30,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(30,29): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(31,3): error C2146: syntax error: missing ';' before identifier 'fadd'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(31,3): error C2065: 'fadd': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(31,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(33,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(33,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(33,7): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(33,12): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(33,36): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(34,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(34,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(34,7): error C2146: syntax error: missing ';' before identifier 'four'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(34,14): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(34,38): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(34,50): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(35,3): error C2146: syntax error: missing ';' before identifier 'fdiv'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(35,3): error C2065: 'fdiv': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(35,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(35,35): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(36,3): error C2146: syntax error: missing ';' before identifier 'fid'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(36,3): error C2065: 'fid': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(36,7): error C2146: syntax error: missing ';' before identifier 'one'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(36,14): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(36,38): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(36,52): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(37,3): error C2146: syntax error: missing ';' before identifier 'fadd'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(37,3): error C2065: 'fadd': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(37,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(37,35): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(39,3): error C2146: syntax error: missing ';' before identifier 'ftst'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(39,3): error C2065: 'ftst': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(40,3): error C2146: syntax error: missing ';' before identifier 'fstsw'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(40,3): error C2065: 'fstsw': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(40,9): error C2146: syntax error: missing ';' before identifier 'ax'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(40,9): error C2065: 'ax': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(41,3): error C2146: syntax error: missing ';' before identifier 'sahf'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(41,3): error C2065: 'sahf': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(42,3): error C2146: syntax error: missing ';' before identifier 'jz'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(42,3): error C2065: 'jz': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(42,6): error C2146: syntax error: missing ';' before identifier 'zero_error'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(42,6): error C2065: 'zero_error': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(44,3): error C2146: syntax error: missing ';' before identifier 'fdiv'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(44,3): error C2065: 'fdiv': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(44,11): error C3861: 'st': identifier not found
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(46,3): error C2146: syntax error: missing ';' before identifier 'jmp'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(46,3): error C2065: 'jmp': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(46,7): error C2146: syntax error: missing ';' before identifier 'write_result'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(46,7): error C2065: 'write_result': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(48,3): error C2146: syntax error: missing ';' before identifier 'zero_error'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(51,4): error C2065: 'fstp': undeclared identifier
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(51,9): error C2146: syntax error: missing ';' before identifier 'result'
+C:\Progs\assembly_labs\lab5\lab5\main.cpp(53,2): error C2143: syntax error: missing ';' before '}'
